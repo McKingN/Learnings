@@ -1,0 +1,49 @@
+.temoignages-page {
+    padding: 20px;
+  }
+  
+  .temoignages-page h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .temoignages-page p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .testimonial-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .user-icon {
+    margin-right: 15px;
+  }
+  
+  .user-icon img {
+    width: 30px; /* Adjust the size of the user icon */
+  }
+  
+  .testimonial-content {
+    flex: 1;
+  }
+  
+  .testimonial-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .testimonial-text {
+    font-size: 14px;
+  }
+  

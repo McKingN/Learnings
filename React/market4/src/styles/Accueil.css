@@ -1,0 +1,33 @@
+.accueil-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .rubrique {
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid;
+    border-radius: 8px;
+  }
+  
+  .annonce-rubrique {
+    border-color: #66BB6A; /* Couleur verte claire */
+  }
+  
+  .theme-rubrique {
+    border-color: #ccc; /* Couleur grise */
+  }
+  
+  .membres-rubrique {
+    border-color: #f4f4f4; /* Blanc sale */
+  }
+  
+  .rubrique-title {
+    font-weight: bold;
+    color: black; /* Couleur du texte en noir */
+    text-decoration: underline;
+  }
+  

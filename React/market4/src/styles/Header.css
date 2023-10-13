@@ -1,0 +1,59 @@
+.header-container {
+    background-color: white; /* Couleur de fond verte claire */
+    padding: 10px 20px;
+    color: rgb(0, 0, 0); /* Couleur du texte blanc */
+  }
+  
+  .button-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-button {
+    background-color: #388E3C; /* Couleur des boutons verts foncés */
+    color: white; /* Couleur du texte blanc */
+    border: none;
+    padding: 8px 16px;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .account-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .account-button {
+    background-color: #388E3C; /* Couleur du bouton vert foncé */
+    color: white; /* Couleur du texte blanc */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #388E3C; /* Couleur du fond du menu déroulant */
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 4px;
+  }
+  
+  .account-dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    color: white; /* Couleur du texte blanc */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #317A32; /* Couleur au survol */
+  }
+  

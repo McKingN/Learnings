@@ -1,0 +1,16 @@
+.background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: opacity 1s ease-in-out;
+  opacity: 1; /* Réglez l'opacité à 0 pour masquer les images lors du changement */
+  background-size: cover;
+  background-position: center;
+}
+
+.background-hidden {
+  opacity: 0; /* Réglez l'opacité à 1 pour afficher les images lors du changement */
+}

@@ -1,0 +1,107 @@
+/* Inscription.css */
+
+.inscription-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inscription-container h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-field {
+    margin-bottom: 20px;
+  }
+  
+  .form-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .form-field input[type="text"],
+  .form-field input[type="email"],
+  .form-field input[type="password"],
+  .form-field select,
+  .form-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .checkbox-field label {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    color: #555;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styles spécifiques aux liens */
+  .form-field a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .form-field a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Alignement du texte et espacement */
+  .form-field label,
+  .form-field input,
+  .form-field select,
+  .form-field textarea,
+  .checkbox-field label {
+    margin-bottom: 10px;
+  }
+  
+  /* Styles pour la section du type d'utilisateur */
+  .form-field select {
+    appearance: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    background-image: url('https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/user-256.png');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px 20px;
+    cursor: pointer;
+  }
+  
+  /* Styles pour les cases à cocher */
+  .checkbox-field input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  

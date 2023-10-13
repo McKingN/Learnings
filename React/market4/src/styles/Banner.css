@@ -1,0 +1,36 @@
+.banner-container {
+    background-color: #00fa43; /* Couleur de fond verte */
+    color: rgb(255, 255, 255); /* Couleur du texte blanc */
+    padding: 20px;
+  }
+  
+  .banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px; /* Ajustez la taille du logo selon vos besoins */
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .company-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  
+  .tagline {
+    font-size: 18px;
+  }
+  

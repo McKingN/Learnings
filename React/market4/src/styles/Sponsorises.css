@@ -1,0 +1,21 @@
+/* Ajoutez ces styles à votre fichier CSS pour la page Sponsorises */
+.sponsorises-page {
+    padding: 20px;
+  }
+  
+  .company-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .company-card {
+    background-color: #f2f2f2; /* Couleur de fond grise */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  

@@ -1,0 +1,28 @@
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 300px;
+  }
+  
+  .search-button {
+    background-color: #4CAF50; /* Couleur verte */
+    color: white; /* Couleur du texte blanc */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #45A049; /* Couleur au survol */
+  }
+  
